@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Quicks</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style/inbox.css">	
+    <link rel="stylesheet" href="style/styles.css">    
+</head>
+<body>
+	<div class="container">
+		<div class="text">Simple</div>
+		<div class="text">Quicks</div>
+	</div>
+    <div class="inbox-field">
+        <div class="search-container">
+            <input type="text" class="search-field" placeholder="Search">
+            <span class="search-icon"><i class="fas fa-search"></i></span>
+        </div>        
+        <div class="inbox-list"></div>        
+    </div>    
+    <div class="chat-box">
+        <div class="chat-header">
+            <span class="back-icon"></span>
+            <div>
+                <div class="chat-title"></div>
+                <div class="chat-members"></div>
+            </div>            
+            <div class="chat-icons">                
+                <span class="close-icon"><i class="fas fa-times"></i></span>
+            </div>
+        </div>
+        <div class="chat-history"></div>        
+        <div class="reply-box">
+            <div class="reply-head">
+                <p id="reply-title"></p>
+                <span class="close-reply-box"><i class="fas fa-times"></i></span>
+            </div>
+            <div class="reply-message"></div>
+        </div>
+        <div class="chat-input">            
+            <input type="text" class="message-input" placeholder="Type a new message">
+            <button class="send-button">Send</button>
+        </div>                
+    </div>    
+    <button class="button-inbox"></button>    
+    <script src="script/script.js"></script>    
+    <script src="script/inbox.js"></script>        
+</body>
+</html>

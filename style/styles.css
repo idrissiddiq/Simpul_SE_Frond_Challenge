@@ -1,0 +1,36 @@
+body {
+    background-color: #0F8A69;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.text {
+    font-family: 'Hiragino Kaku Gothic StdN';
+    font-size: 190px;
+    font-weight: 900;
+    line-height: 173.66px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.button-inbox {
+    position: absolute;
+    bottom: 0;
+    right: 98px;
+    width: 68px;
+    height: 68px;
+    background-image: url('images/buttonInbox.png');
+    background-size: cover;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    opacity: 01;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-out;
+    z-index: 1;
+}
